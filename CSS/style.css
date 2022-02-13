@@ -21,9 +21,12 @@ ul {
 
 .loader {
     font-size: 39px;
-    color: brown;
+    color: darkgreen;
     border: none;
 
 }
 
-
+.error {
+    color: red;
+    font-size: 3rem;
+}

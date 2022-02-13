@@ -32,9 +32,7 @@ try {
   console.log("Yeey");
 } catch (error) {
   console.log("Oh no! An error occurred", error);
-  errorMsg.innerHTML = "Oh no! An error occurred";
+  errorMsg.innerHTML += "Oh no! An error occurred!!!";
 }
-
-
 
 // API Key :  c0df2dfdfec944839c0adc50e065f7c6
