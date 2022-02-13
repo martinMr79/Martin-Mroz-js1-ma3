@@ -25,14 +25,16 @@ async function getRawg() {
   }
 }
 
-const error = document.querySelector(".error");
+const errorMsg = document.querySelector(".error");
 
 try {
   getRawg();
   console.log("Yeey");
 } catch (error) {
   console.log("Oh no! An error occurred", error);
-  result.innerHTML = "Oh no! An error occurred";
+  errorMsg.innerHTML = "Oh no! An error occurred";
 }
+
+
 
 // API Key :  c0df2dfdfec944839c0adc50e065f7c6
